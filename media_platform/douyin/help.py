@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2025 relakkes@gmail.com
+# Copyright (c) 2025 499741479@qq.com
 #
-# This file is part of MediaCrawler project.
-# Repository: https://github.com/NanmiCoder/MediaCrawler/blob/main/media_platform/douyin/help.py
-# GitHub: https://github.com/NanmiCoder
+# This file is part of webb-crawler project.
+# Repository: https://github.com/webb-chen/webb-crawler/blob/main/media_platform/douyin/help.py
+# GitHub: https://github.com/webb-chen
 # Licensed under NON-COMMERCIAL LEARNING LICENSE 1.1
 #
 
@@ -19,8 +19,8 @@
 
 
 # -*- coding: utf-8 -*-
-# @Author  : relakkes@gmail.com
-# @Name: Programmer Ajiang-Relakkes
+# @Author  : 499741479@qq.com
+# @Name: webb
 # @Time    : 2024/6/10 02:24
 # @Desc    : Get a_bogus parameter, for learning and communication only, do not use for commercial purposes, contact author to delete if infringement
 

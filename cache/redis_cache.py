@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2025 relakkes@gmail.com
+# Copyright (c) 2025 499741479@qq.com
 #
-# This file is part of MediaCrawler project.
-# Repository: https://github.com/NanmiCoder/MediaCrawler/blob/main/cache/redis_cache.py
-# GitHub: https://github.com/NanmiCoder
+# This file is part of webb-crawler project.
+# Repository: https://github.com/webb-chen/webb-crawler/blob/main/cache/redis_cache.py
+# GitHub: https://github.com/webb-chen
 # Licensed under NON-COMMERCIAL LEARNING LICENSE 1.1
 #
 
@@ -19,8 +19,8 @@
 
 
 # -*- coding: utf-8 -*-
-# @Author  : relakkes@gmail.com
-# @Name    : Programmer AJiang-Relakkes
+# @Author  : 499741479@qq.com
+# @Name    : webb
 # @Time    : 2024/5/29 22:57
 # @Desc    : RedisCache implementation
 import pickle
@@ -101,8 +101,8 @@ class RedisCache(AbstractCache):
 if __name__ == '__main__':
     redis_cache = RedisCache()
     # basic usage
-    redis_cache.set("name", "Programmer AJiang-Relakkes", 1)
-    print(redis_cache.get("name"))  # Relakkes
+    redis_cache.set("name", "webb", 1)
+    print(redis_cache.get("name"))  # webb
     print(redis_cache.keys("*"))  # ['name']
     time.sleep(2)
     print(redis_cache.get("name"))  # None

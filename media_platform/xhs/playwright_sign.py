@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2025 relakkes@gmail.com
+# Copyright (c) 2025 499741479@qq.com
 #
-# This file is part of MediaCrawler project.
-# Repository: https://github.com/NanmiCoder/MediaCrawler/blob/main/media_platform/xhs/playwright_sign.py
-# GitHub: https://github.com/NanmiCoder
+# This file is part of webb-crawler project.
+# Repository: https://github.com/webb-chen/webb-crawler/blob/main/media_platform/xhs/playwright_sign.py
+# GitHub: https://github.com/webb-chen
 # Licensed under NON-COMMERCIAL LEARNING LICENSE 1.1
 #
 # 声明：本代码仅供学习和研究目的使用。使用者应遵守以下原则：

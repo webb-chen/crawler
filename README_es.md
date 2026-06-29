@@ -1,16 +1,16 @@
-# 🔥 MediaCrawler - Rastreador de Plataformas de Redes Sociales 🕷️
+# 🔥 webb-crawler - Rastreador de Plataformas de Redes Sociales 🕷️
 
 <div align="center">
 
 <a href="https://trendshift.io/repositories/8291" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/8291" alt="NanmiCoder%2FMediaCrawler | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/8291" alt="webb-chen%2Fwebb-crawler | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
 </a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/NanmiCoder/MediaCrawler?style=social)](https://github.com/NanmiCoder/MediaCrawler/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/NanmiCoder/MediaCrawler?style=social)](https://github.com/NanmiCoder/MediaCrawler/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/pulls)
-[![License](https://img.shields.io/github/license/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/webb-chen/webb-crawler?style=social)](https://github.com/webb-chen/webb-crawler/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/webb-chen/webb-crawler?style=social)](https://github.com/webb-chen/webb-crawler/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/pulls)
+[![License](https://img.shields.io/github/license/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/blob/main/LICENSE)
 [![中文](https://img.shields.io/badge/🇨🇳_中文-Available-blue)](README.md)
 [![English](https://img.shields.io/badge/🇺🇸_English-Available-green)](README_en.md)
 [![Español](https://img.shields.io/badge/🇪🇸_Español-Current-green)](README_es.md)
@@ -47,11 +47,11 @@ Una poderosa **herramienta de recolección de datos de redes sociales multiplata
 | Zhihu   | ✅          | ✅              | ✅        | ✅              | ✅          | ✅        | ✅              |
 
 
-<strong>¡Lanzamiento Mayor de MediaCrawlerPro! ¡El código abierto no es fácil, bienvenido a suscribirse y apoyar!</strong>
+<strong>¡Lanzamiento Mayor de webb-crawlerPro! ¡El código abierto no es fácil, bienvenido a suscribirse y apoyar!</strong>
 
 > Enfócate en aprender el diseño arquitectónico de proyectos maduros, no solo tecnología de rastreo. ¡La filosofía de diseño de código de la versión Pro también vale la pena estudiar en profundidad!
 
-[MediaCrawlerPro](https://github.com/MediaCrawlerPro) ventajas principales sobre la versión de código abierto:
+[webb-crawlerPro](https://github.com/webb-crawlerPro) ventajas principales sobre la versión de código abierto:
 
 #### 🎯 Actualizaciones de Características Principales
 - ✅ **Agente de Deconstrucción de Contenido** (Nueva función)
@@ -70,7 +70,7 @@ Una poderosa **herramienta de recolección de datos de redes sociales multiplata
 - ✅ **Recomendaciones de feed de página de inicio multiplataforma** (HomeFeed)
 - [ ] **Agente AI basado en análisis de comentarios está en desarrollo 🚀🚀**
 
-Haga clic para ver: [Página de Inicio del Proyecto MediaCrawlerPro](https://github.com/MediaCrawlerPro) para más información
+Haga clic para ver: [Página de Inicio del Proyecto webb-crawlerPro](https://github.com/webb-crawlerPro) para más información
 
 ## 🚀 Inicio Rápido
 
@@ -97,7 +97,7 @@ El proyecto depende de Node.js, por favor descargue e instale desde el sitio web
 
 ```shell
 # Entrar al directorio del proyecto
-cd MediaCrawler
+cd webb-crawler
 
 # Usar el comando uv sync para asegurar la consistencia de la versión de python y paquetes de dependencias relacionados
 uv sync
@@ -110,7 +110,7 @@ uv sync
 uv run playwright install
 ```
 
-> **💡 Consejo**: MediaCrawler ahora soporta usar playwright para conectarse a su navegador Chrome local, resolviendo algunos problemas causados por Webdriver.
+> **💡 Consejo**: webb-crawler ahora soporta usar playwright para conectarse a su navegador Chrome local, resolviendo algunos problemas causados por Webdriver.
 >
 > Actualmente, `xhs` y `dy` están disponibles usando el modo CDP para conectarse a navegadores locales. Si es necesario, verifique los elementos de configuración en `config/base_config.py`.
 
@@ -137,7 +137,7 @@ uv run main.py --help
 <details>
 <summary>🖥️ <strong>Interfaz de Operación Visual WebUI</strong></summary>
 
-MediaCrawler proporciona una interfaz de operación visual basada en web, permitiéndole usar fácilmente las funciones del rastreador sin línea de comandos.
+webb-crawler proporciona una interfaz de operación visual basada en web, permitiéndole usar fácilmente las funciones del rastreador sin línea de comandos.
 
 #### Iniciar Servicio WebUI
 
@@ -172,7 +172,7 @@ Después de iniciar exitosamente, visite `http://localhost:8080` para abrir la i
 
 ```shell
 # Entrar al directorio raíz del proyecto
-cd MediaCrawler
+cd webb-crawler
 
 # Crear entorno virtual
 # Mi versión de python es: 3.9.6, las librerías en requirements.txt están basadas en esta versión
@@ -221,22 +221,22 @@ python main.py --help
 
 ## 💾 Almacenamiento de Datos
 
-MediaCrawler soporta múltiples métodos de almacenamiento de datos, incluyendo CSV, JSON, JSONL, Excel, SQLite y bases de datos MySQL.
+webb-crawler soporta múltiples métodos de almacenamiento de datos, incluyendo CSV, JSON, JSONL, Excel, SQLite y bases de datos MySQL.
 
 📖 **Para instrucciones de uso detalladas, por favor vea: [Guía de Almacenamiento de Datos](docs/data_storage_guide.md)**
 
 
-[🚀 ¡Lanzamiento Mayor de MediaCrawlerPro 🚀! ¡Más características, mejor diseño arquitectónico!](https://github.com/MediaCrawlerPro)
+[🚀 ¡Lanzamiento Mayor de webb-crawlerPro 🚀! ¡Más características, mejor diseño arquitectónico!](https://github.com/webb-crawlerPro)
 
 
 ### 💬 Grupos de Discusión
-- **Grupo de Discusión WeChat**: [Haga clic para unirse](https://nanmicoder.github.io/MediaCrawler/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.html)
+- **Grupo de Discusión WeChat**: [Haga clic para unirse](https://webb-chen.github.io/webb-crawler/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.html)
 - **Cuenta de Bilibili**: [Sígueme](https://space.bilibili.com/434377496), compartiendo conocimientos de tecnología de IA y rastreo
 
 
 ### 💰 Exhibición de Patrocinadores
 
-<a href="https://tikhub.io/?utm_source=github.com/NanmiCoder/MediaCrawler&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad">
+<a href="https://tikhub.io/?utm_source=github.com/webb-chen/webb-crawler&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad">
 <img width="500" src="docs/static/images/tikhub_banner_zh.png">
 <br>
 TikHub.io proporciona 900+ interfaces de datos altamente estables, cubriendo 14+ plataformas principales nacionales e internacionales incluyendo TK, DY, XHS, Y2B, Ins, X, etc. Soporta APIs de datos públicos multidimensionales para usuarios, contenido, productos, comentarios, etc., con 40M+ conjuntos de datos estructurados limpios. Use el código de invitación <code>cfzyejV9</code> para registrarse y recargar, y obtenga $2 adicionales de bonificación.
@@ -249,21 +249,21 @@ TikHub.io proporciona 900+ interfaces de datos altamente estables, cubriendo 14+
 ¡Conviértase en patrocinador y muestre su producto aquí, obteniendo exposición masiva diariamente!
 
 **Información de Contacto**:
-- WeChat: `relakkes`
-- Email: `relakkes@gmail.com`
+- WeChat: `your-wechat-id`
+- Email: `499741479@qq.com`
 ---
 
 ### 📚 Otros
-- **Preguntas Frecuentes**: [Documentación Completa de MediaCrawler](https://nanmicoder.github.io/MediaCrawler/)
-- **Tutorial de Rastreador para Principiantes**: [Tutorial Gratuito CrawlerTutorial](https://github.com/NanmiCoder/CrawlerTutorial)
-- **Proyecto de Código Abierto de Rastreador de Noticias**: [NewsCrawlerCollection](https://github.com/NanmiCoder/NewsCrawlerCollection)
+- **Preguntas Frecuentes**: [Documentación Completa de webb-crawler](https://webb-chen.github.io/webb-crawler/)
+- **Tutorial de Rastreador para Principiantes**: [Tutorial Gratuito CrawlerTutorial](https://github.com/webb-chen/CrawlerTutorial)
+- **Proyecto de Código Abierto de Rastreador de Noticias**: [NewsCrawlerCollection](https://github.com/webb-chen/NewsCrawlerCollection)
 
 
 ## ⭐ Gráfico de Tendencia de Estrellas
 
-¡Si este proyecto te ayuda, por favor da una ⭐ Estrella para apoyar y que más personas vean MediaCrawler!
+¡Si este proyecto te ayuda, por favor da una ⭐ Estrella para apoyar y que más personas vean webb-crawler!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NanmiCoder/MediaCrawler&type=Date)](https://star-history.com/#NanmiCoder/MediaCrawler&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=webb-chen/webb-crawler&type=Date)](https://star-history.com/#webb-chen/webb-crawler&Date)
 
 
 ## 📚 Referencias
@@ -303,6 +303,6 @@ El desarrollador tiene los derechos de interpretación final con respecto a este
 
 ¡Gracias a JetBrains por proporcionar soporte de licencia de código abierto gratuito para este proyecto!
 
-<a href="https://www.jetbrains.com/?from=MediaCrawler">
+<a href="https://www.jetbrains.com/?from=webb-crawler">
     <img src="https://www.jetbrains.com/company/brand/img/jetbrains_logo.png" width="100" alt="JetBrains" />
 </a>
