@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2025 relakkes@gmail.com
+# Copyright (c) 2025 499741479@qq.com
 #
-# This file is part of MediaCrawler project.
-# Repository: https://github.com/NanmiCoder/MediaCrawler/blob/main/cache/local_cache.py
-# GitHub: https://github.com/NanmiCoder
+# This file is part of webb-crawler project.
+# Repository: https://github.com/webb-chen/webb-crawler/blob/main/cache/local_cache.py
+# GitHub: https://github.com/webb-chen
 # Licensed under NON-COMMERCIAL LEARNING LICENSE 1.1
 #
 
@@ -19,8 +19,8 @@
 
 
 # -*- coding: utf-8 -*-
-# @Author  : relakkes@gmail.com
-# @Name    : Programmer AJiang-Relakkes
+# @Author  : 499741479@qq.com
+# @Name    : webb
 # @Time    : 2024/6/2 11:05
 # @Desc    : Local cache
 
@@ -130,7 +130,7 @@ class ExpiringLocalCache(AbstractCache):
 
 if __name__ == '__main__':
     cache = ExpiringLocalCache(cron_interval=2)
-    cache.set('name', 'Programmer AJiang-Relakkes', 3)
+    cache.set('name', 'webb', 3)
     print(cache.get('key'))
     print(cache.keys("*"))
     time.sleep(4)

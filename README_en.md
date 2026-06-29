@@ -1,16 +1,16 @@
-# 🔥 MediaCrawler - Social Media Platform Crawler 🕷️
+# 🔥 webb-crawler - Social Media Platform Crawler 🕷️
 
 <div align="center">
 
 <a href="https://trendshift.io/repositories/8291" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/8291" alt="NanmiCoder%2FMediaCrawler | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/8291" alt="webb-chen%2Fwebb-crawler | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
 </a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/NanmiCoder/MediaCrawler?style=social)](https://github.com/NanmiCoder/MediaCrawler/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/NanmiCoder/MediaCrawler?style=social)](https://github.com/NanmiCoder/MediaCrawler/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/pulls)
-[![License](https://img.shields.io/github/license/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/webb-chen/webb-crawler?style=social)](https://github.com/webb-chen/webb-crawler/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/webb-chen/webb-crawler?style=social)](https://github.com/webb-chen/webb-crawler/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/pulls)
+[![License](https://img.shields.io/github/license/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/blob/main/LICENSE)
 [![中文](https://img.shields.io/badge/🇨🇳_中文-Available-blue)](README.md)
 [![English](https://img.shields.io/badge/🇺🇸_English-Current-green)](README_en.md)
 [![Español](https://img.shields.io/badge/🇪🇸_Español-Available-green)](README_es.md)
@@ -47,11 +47,11 @@ A powerful **multi-platform social media data collection tool** that supports cr
 | Zhihu   | ✅          | ✅              | ✅        | ✅              | ✅          | ✅        | ✅              |
 
 
-<strong>MediaCrawlerPro Major Release! Open source is not easy, welcome to subscribe and support!</strong>
+<strong>webb-crawlerPro Major Release! Open source is not easy, welcome to subscribe and support!</strong>
 
 > Focus on learning mature project architectural design, not just crawling technology. The code design philosophy of the Pro version is equally worth in-depth study!
 
-[MediaCrawlerPro](https://github.com/MediaCrawlerPro) core advantages over the open-source version:
+[webb-crawlerPro](https://github.com/webb-crawlerPro) core advantages over the open-source version:
 
 #### 🎯 Core Feature Upgrades
 - ✅ **Content Deconstruction Agent** (New feature)
@@ -70,7 +70,7 @@ A powerful **multi-platform social media data collection tool** that supports cr
 - ✅ **Multi-platform homepage feed recommendations** (HomeFeed)
 - [ ] **AI Agent based on comment analysis is under development 🚀🚀**
 
-Click to view: [MediaCrawlerPro Project Homepage](https://github.com/MediaCrawlerPro) for more information
+Click to view: [webb-crawlerPro Project Homepage](https://github.com/webb-crawlerPro) for more information
 
 ## 🚀 Quick Start
 
@@ -97,7 +97,7 @@ The project depends on Node.js, please download and install from the official we
 
 ```shell
 # Enter project directory
-cd MediaCrawler
+cd webb-crawler
 
 # Use uv sync command to ensure consistency of python version and related dependency packages
 uv sync
@@ -110,7 +110,7 @@ uv sync
 uv run playwright install
 ```
 
-> **💡 Tip**: MediaCrawler now supports using playwright to connect to your local Chrome browser, solving some issues caused by Webdriver.
+> **💡 Tip**: webb-crawler now supports using playwright to connect to your local Chrome browser, solving some issues caused by Webdriver.
 >
 > Currently, `xhs` and `dy` are available using CDP mode to connect to local browsers. If needed, check the configuration items in `config/base_config.py`.
 
@@ -137,7 +137,7 @@ uv run main.py --help
 <details>
 <summary>🖥️ <strong>WebUI Visual Operation Interface</strong></summary>
 
-MediaCrawler provides a web-based visual operation interface, allowing you to easily use crawler features without command line.
+webb-crawler provides a web-based visual operation interface, allowing you to easily use crawler features without command line.
 
 #### Start WebUI Service
 
@@ -172,7 +172,7 @@ After successful startup, visit `http://localhost:8080` to open the WebUI interf
 
 ```shell
 # Enter project root directory
-cd MediaCrawler
+cd webb-crawler
 
 # Create virtual environment
 # My python version is: 3.9.6, the libraries in requirements.txt are based on this version
@@ -221,22 +221,22 @@ python main.py --help
 
 ## 💾 Data Storage
 
-MediaCrawler supports multiple data storage methods, including CSV, JSON, JSONL, Excel, SQLite, and MySQL databases.
+webb-crawler supports multiple data storage methods, including CSV, JSON, JSONL, Excel, SQLite, and MySQL databases.
 
 📖 **For detailed usage instructions, please see: [Data Storage Guide](docs/data_storage_guide.md)**
 
 ---
 
-[🚀 MediaCrawlerPro Major Release 🚀! More features, better architectural design!](https://github.com/MediaCrawlerPro)
+[🚀 webb-crawlerPro Major Release 🚀! More features, better architectural design!](https://github.com/webb-crawlerPro)
 
 ### 💬 Discussion Groups
-- **WeChat Discussion Group**: [Click to join](https://nanmicoder.github.io/MediaCrawler/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.html)
+- **WeChat Discussion Group**: [Click to join](https://webb-chen.github.io/webb-crawler/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.html)
 - **Bilibili Account**: [Follow me](https://space.bilibili.com/434377496), sharing AI and crawler technology knowledge
 
 
 ### 💰 Sponsor Display
 
-<a href="https://tikhub.io/?utm_source=github.com/NanmiCoder/MediaCrawler&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad">
+<a href="https://tikhub.io/?utm_source=github.com/webb-chen/webb-crawler&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad">
 <img width="500" src="docs/static/images/tikhub_banner_zh.png">
 <br>
 TikHub.io provides 900+ highly stable data interfaces, covering 14+ mainstream domestic and international platforms including TK, DY, XHS, Y2B, Ins, X, etc. Supports multi-dimensional public data APIs for users, content, products, comments, etc., with 40M+ cleaned structured datasets. Use invitation code <code>cfzyejV9</code> to register and recharge, and get an additional $2 bonus.
@@ -258,21 +258,21 @@ TikHub.io provides 900+ highly stable data interfaces, covering 14+ mainstream d
 Become a sponsor and showcase your product here, getting massive exposure daily!
 
 **Contact Information**:
-- WeChat: `relakkes`
-- Email: `relakkes@gmail.com`
+- WeChat: `your-wechat-id`
+- Email: `499741479@qq.com`
 ---
 
 ### 📚 Other
-- **FAQ**: [MediaCrawler Complete Documentation](https://nanmicoder.github.io/MediaCrawler/)
-- **Crawler Beginner Tutorial**: [CrawlerTutorial Free Tutorial](https://github.com/NanmiCoder/CrawlerTutorial)
-- **News Crawler Open Source Project**: [NewsCrawlerCollection](https://github.com/NanmiCoder/NewsCrawlerCollection)
+- **FAQ**: [webb-crawler Complete Documentation](https://webb-chen.github.io/webb-crawler/)
+- **Crawler Beginner Tutorial**: [CrawlerTutorial Free Tutorial](https://github.com/webb-chen/CrawlerTutorial)
+- **News Crawler Open Source Project**: [NewsCrawlerCollection](https://github.com/webb-chen/NewsCrawlerCollection)
 
 
 ## ⭐ Star Trend Chart
 
-If this project helps you, please give a ⭐ Star to support and let more people see MediaCrawler!
+If this project helps you, please give a ⭐ Star to support and let more people see webb-crawler!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NanmiCoder/MediaCrawler&type=Date)](https://star-history.com/#NanmiCoder/MediaCrawler&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=webb-chen/webb-crawler&type=Date)](https://star-history.com/#webb-chen/webb-crawler&Date)
 
 
 ## 📚 References
@@ -312,6 +312,6 @@ The developer has the final interpretation rights regarding this project. The de
 
 Thanks to JetBrains for providing free open source license support for this project!
 
-<a href="https://www.jetbrains.com/?from=MediaCrawler">
+<a href="https://www.jetbrains.com/?from=webb-crawler">
     <img src="https://www.jetbrains.com/company/brand/img/jetbrains_logo.png" width="100" alt="JetBrains" />
 </a>

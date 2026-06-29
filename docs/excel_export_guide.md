@@ -2,7 +2,7 @@
 
 ## Overview
 
-MediaCrawler now supports exporting crawled data to formatted Excel files (.xlsx) with professional styling and multiple sheets for contents, comments, and creators.
+webb-crawler now supports exporting crawled data to formatted Excel files (.xlsx) with professional styling and multiple sheets for contents, comments, and creators.
 
 ## Features
 

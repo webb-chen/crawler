@@ -1,16 +1,16 @@
-# 🔥 MediaCrawler - 自媒体平台爬虫 🕷️
+# 🔥 webb-crawler - 自媒体平台爬虫 🕷️
 
 <div align="center">
 
 <a href="https://trendshift.io/repositories/8291" target="_blank">
-  <img src="https://trendshift.io/api/badge/repositories/8291" alt="NanmiCoder%2FMediaCrawler | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+  <img src="https://trendshift.io/api/badge/repositories/8291" alt="webb-chen%2Fwebb-crawler | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
 </a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/NanmiCoder/MediaCrawler?style=social)](https://github.com/NanmiCoder/MediaCrawler/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/NanmiCoder/MediaCrawler?style=social)](https://github.com/NanmiCoder/MediaCrawler/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/pulls)
-[![License](https://img.shields.io/github/license/NanmiCoder/MediaCrawler)](https://github.com/NanmiCoder/MediaCrawler/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/webb-chen/webb-crawler?style=social)](https://github.com/webb-chen/webb-crawler/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/webb-chen/webb-crawler?style=social)](https://github.com/webb-chen/webb-crawler/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/pulls)
+[![License](https://img.shields.io/github/license/webb-chen/webb-crawler)](https://github.com/webb-chen/webb-crawler/blob/main/LICENSE)
 [![中文](https://img.shields.io/badge/🇨🇳_中文-当前-blue)](README.md)
 [![English](https://img.shields.io/badge/🇺🇸_English-Available-green)](README_en.md)
 [![Español](https://img.shields.io/badge/🇪🇸_Español-Available-green)](README_es.md)
@@ -53,11 +53,11 @@
 
 
 
-<strong>MediaCrawlerPro 重磅发布！开源不易，欢迎订阅支持</strong>
+<strong>webb-crawlerPro 重磅发布！开源不易，欢迎订阅支持</strong>
 
 > 专注于学习成熟项目的架构设计，不仅仅是爬虫技术，Pro 版本的代码设计思路同样值得深入学习！
 
-[MediaCrawlerPro](https://github.com/MediaCrawlerPro) 相较于开源版本的核心优势：
+[webb-crawlerPro](https://github.com/webb-crawlerPro) 相较于开源版本的核心优势：
 
 #### 🎯 核心功能升级
 - ✅ **自媒体内容拆解Agent**（新增功能）
@@ -77,7 +77,7 @@
 - ✅ **AI Agent Skill 支持**（[OpenClaw](https://openclaw.ai/) 🦞 / Claude Code / Cursor 一键安装，让 Agent 自动爬取数据）
 - [ ] **基于评论分析AI Agent正在开发中 🚀🚀**
 
-点击查看：[MediaCrawlerPro 项目主页](https://github.com/MediaCrawlerPro) 更多介绍
+点击查看：[webb-crawlerPro 项目主页](https://github.com/webb-crawlerPro) 更多介绍
 
 
 
@@ -106,7 +106,7 @@
 
 ```shell
 # 进入项目目录
-cd MediaCrawler
+cd webb-crawler
 
 # 使用 uv sync 命令来保证 python 版本和相关依赖包的一致性
 uv sync
@@ -155,7 +155,7 @@ uv run main.py --help
 <details>
 <summary>🖥️ <strong>WebUI 可视化操作界面</strong></summary>
 
-MediaCrawler 提供了基于 Web 的可视化操作界面，无需命令行也能轻松使用爬虫功能。
+webb-crawler 提供了基于 Web 的可视化操作界面，无需命令行也能轻松使用爬虫功能。
 
 #### 启动 WebUI 服务
 
@@ -190,7 +190,7 @@ uv run python -m api.main
 
 ```shell
 # 进入项目根目录
-cd MediaCrawler
+cd webb-crawler
 
 # 创建虚拟环境
 # 我的 python 版本是：3.11 requirements.txt 中的库是基于这个版本的
@@ -239,22 +239,22 @@ python main.py --help
 
 ## 💾 数据保存
 
-MediaCrawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel、SQLite 和 MySQL 数据库。
+webb-crawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel、SQLite 和 MySQL 数据库。
 
 📖 **详细使用说明请查看：[数据存储指南](docs/data_storage_guide.md)**
 
 
-[🚀 MediaCrawlerPro 重磅发布 🚀！更多的功能，更好的架构设计！开源不易，欢迎订阅支持！](https://github.com/MediaCrawlerPro)
+[🚀 webb-crawlerPro 重磅发布 🚀！更多的功能，更好的架构设计！开源不易，欢迎订阅支持！](https://github.com/webb-crawlerPro)
 
 
 ## 💬 交流群组
-- **微信交流群**：[点击加入](https://nanmicoder.github.io/MediaCrawler/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.html)
+- **微信交流群**：[点击加入](https://webb-chen.github.io/webb-crawler/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.html)
 - **B站账号**：[关注我](https://space.bilibili.com/434377496)，分享AI与爬虫技术知识
 
 
 ## 💰 赞助商展示
 
-<a href="https://tikhub.io/?utm_source=github.com/NanmiCoder/MediaCrawler&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad">
+<a href="https://tikhub.io/?utm_source=github.com/webb-chen/webb-crawler&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad">
 <img width="500" src="docs/static/images/tikhub_banner_zh.png">
 <br>
 TikHub.io 提供 900+ 高稳定性数据接口，覆盖 TK、DY、XHS、Y2B、Ins、X 等 14+ 海内外主流平台，支持用户、内容、商品、评论等多维度公开数据 API，并配套 4000 万+ 已清洗结构化数据集，使用邀请码 <code>cfzyejV9</code> 注册并充值，即可额外获得 $2 赠送额度。
@@ -276,8 +276,8 @@ TikHub.io 提供 900+ 高稳定性数据接口，覆盖 TK、DY、XHS、Y2B、In
 成为赞助者，可以将您的产品展示在这里，每天获得大量曝光！
 
 **联系方式**：
-- 微信：`relakkes`
-- 邮箱：`relakkes@gmail.com`
+- 微信：`your-wechat-id`
+- 邮箱：`499741479@qq.com`
 ---
 
 ## ☕ 请作者喝杯咖啡
@@ -295,7 +295,7 @@ TikHub.io 提供 900+ 高稳定性数据接口，覆盖 TK、DY、XHS、Y2B、In
 <b>支付宝</b>
 </td>
 <td align="center" width="33%">
-<a href="https://buymeacoffee.com/relakkes" target="_blank">
+<a href="https://buymeacoffee.com/webb" target="_blank">
 <img src="docs/static/images/bmc_button.png" width="250" alt="Buy Me a Coffee">
 </a><br>
 <b>Buy Me a Coffee</b>
@@ -306,16 +306,16 @@ TikHub.io 提供 900+ 高稳定性数据接口，覆盖 TK、DY、XHS、Y2B、In
 ---
 
 ## 📚 其他
-- **常见问题**：[MediaCrawler 完整文档](https://nanmicoder.github.io/MediaCrawler/)
-- **爬虫入门教程**：[CrawlerTutorial 免费教程](https://github.com/NanmiCoder/CrawlerTutorial)
-- **新闻爬虫开源项目**：[NewsCrawlerCollection](https://github.com/NanmiCoder/NewsCrawlerCollection)
+- **常见问题**：[webb-crawler 完整文档](https://webb-chen.github.io/webb-crawler/)
+- **爬虫入门教程**：[CrawlerTutorial 免费教程](https://github.com/webb-chen/CrawlerTutorial)
+- **新闻爬虫开源项目**：[NewsCrawlerCollection](https://github.com/webb-chen/NewsCrawlerCollection)
 
 
 ## ⭐ Star 趋势图
 
-如果这个项目对您有帮助，请给个 ⭐ Star 支持一下，让更多的人看到 MediaCrawler！
+如果这个项目对您有帮助，请给个 ⭐ Star 支持一下，让更多的人看到 webb-crawler！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NanmiCoder/MediaCrawler&type=Date)](https://star-history.com/#NanmiCoder/MediaCrawler&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=webb-chen/webb-crawler&type=Date)](https://star-history.com/#webb-chen/webb-crawler&Date)
 
 
 ## 📚 参考

@@ -1,2 +1,2 @@
 # -*- coding: utf-8 -*-
-# MediaCrawler Test Suite
+# webb-crawler Test Suite

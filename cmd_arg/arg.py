@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2025 relakkes@gmail.com
+# Copyright (c) 2025 499741479@qq.com
 #
-# This file is part of MediaCrawler project.
-# Repository: https://github.com/NanmiCoder/MediaCrawler/blob/main/cmd_arg/arg.py
-# GitHub: https://github.com/NanmiCoder
+# This file is part of webb-crawler project.
+# Repository: https://github.com/webb-chen/webb-crawler/blob/main/cmd_arg/arg.py
+# GitHub: https://github.com/webb-chen
 # Licensed under NON-COMMERCIAL LEARNING LICENSE 1.1
 #
 
@@ -333,7 +333,7 @@ async def parse_cmd(argv: Optional[Sequence[str]] = None):
             ),
         ] = config.STATIC_PROXY_URL,
     ) -> SimpleNamespace:
-        """MediaCrawler 命令行入口"""
+        """webb-crawler 命令行入口"""
 
         enable_comment = _to_bool(get_comment)
         enable_sub_comment = _to_bool(get_sub_comment)
